@@ -1,3 +1,6 @@
+import pip
+pip.main(['install','--upgrade','pip'])
+
 # Import the required module for text
 # to speech conversion
 from gtts import gTTS
@@ -7,7 +10,9 @@ from gtts import gTTS
 import os
 
 # The text that you want to convert to audio
-mytext = 'Here is a pyhton script that can read the text and convert it into audio. You can write songs,books and many more things'
+mytext = 'Here is a pyhton script that can read the text and convert it into audio. ' \
+         'You can write songs,books and many more things. Alla shali gamo to stoma su.'
+
 
 # Language in which you want to convert
 language = 'en'
